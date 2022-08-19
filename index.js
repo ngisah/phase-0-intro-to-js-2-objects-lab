@@ -33,4 +33,4 @@ function destructivelyDeleteFromEmployeeByKey(employee, key) {
     delete employee.name;
     return employee;
 }
-const emoloyeeNew = destructivelyDeleteFromEmployeeByKey(employee, "name");
+const employeeNew = destructivelyDeleteFromEmployeeByKey(employee, "name");
